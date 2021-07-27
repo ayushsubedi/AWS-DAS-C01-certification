@@ -3,6 +3,15 @@
 
 https://aws.amazon.com/certification/certified-data-analytics-specialty
 
+| Topic                                 | %  |
+| ------------------------------------- | -- |
+| Domain 1: Collection                  | 18 |
+| Domain 2: Storage and Data Management | 22 |
+| Domain 3: Processing                  | 24 |
+| Domain 4: Analysis and Visualization  | 18 |
+| Domain 5: Security                    | 18 |
+
+
 ### Domain 1: Collection
 1. Determine the operational characteristics of the collection system
 2. Select a collection system that handles the frequency, volume, and source of data

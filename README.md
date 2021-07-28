@@ -65,3 +65,39 @@ https://aws.amazon.com/certification/certified-data-analytics-specialty
 
 - [ ] Amazon KMS
 - [ ] AWS CloudHSM
+
+## Resources
+
+- [ ] [Udemy course-AWS Certified Data Analytics Specialty 2021 - Hands On!](https://www.udemy.com/course/aws-data-analytics/)
+- [ ] [Unofficial Guide](https://awsmaniac.com/the-unofficial-guide-to-aws-certified-data-analytics-specialty-exam/)
+- [ ] [Practice exams](https://www.whizlabs.com/aws-certified-data-analytics-specialty/practice-tests/)
+- [ ] [Amazon Athena](https://aws.amazon.com/athena/faqs/)
+- [ ] [Amazon EMR](https://aws.amazon.com/emr/faqs/)
+- [ ] [Amazon Redshift](https://aws.amazon.com/redshift/faqs/)
+- [ ] [Amazon Kinesis Data Streams](https://aws.amazon.com/kinesis/data-streams/faqs/)
+- [ ] [Amazon Kinesis Data Firehose](https://aws.amazon.com/kinesis/data-firehose/faqs/)
+- [ ] [Amazon Kinesis Data Analytics](https://aws.amazon.com/kinesis/data-analytics/faqs/)
+- [ ] [Amazon ElasticSearch Service](https://aws.amazon.com/elasticsearch-service/faqs/)
+- [ ] [Amazon Managed Service for Kafka (MSK)](https://aws.amazon.com/msk/faqs/)
+- [ ] [Amazon QuickSight](https://aws.amazon.com/quicksight/resources/faqs/)
+- [ ] [AWS Data Exchange](https://aws.amazon.com/data-exchange/faqs/)
+- [ ] [AWS Glue](https://aws.amazon.com/glue/faqs/)
+- [ ] [AWS Lake Formation](https://aws.amazon.com/lake-formation/faqs/)
+- [ ] [Optimize memory management in AWS Glue](https://aws.amazon.com/blogs/big-data/optimize-memory-management-in-aws-glue/).
+- [ ] [Process data with varying data ingestion frequencies using AWS Glue job bookmarks](https://aws.amazon.com/blogs/big-data/process-data-with-varying-data-ingestion-frequencies-using-aws-glue-job-bookmarks)
+- [ ] [Amazon Redshift Engineering's Advanced Table Design Playbook: Preamble, Prerequisites, and Prioritization](https://aws.amazon.com/blogs/big-data/amazon-redshift-engineerings-advanced-table-design-playbook-preamble-prerequisites-and-prioritization/)
+- [ ] [Top 10 performance tuning techniques for Amazon Redshift](https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-techniques-for-amazon-redshift)
+- [ ] [Best Practices for Amazon Redshift Spectrum](https://aws.amazon.com/blogs/big-data/10-best-practices-for-amazon-redshift-spectrum)
+- [ ] [AWS Well-Architected Framework - Analytics Lens](https://d1.awsstatic.com/whitepapers/architecture/wellarchitected-Analytics-Lens.pdf).
+- [ ] [Streaming Data Solutions on AWS with Amazon Kinesis](https://d1.awsstatic.com/whitepapers/whitepaper-streaming-data-solutions-on-aws-with-amazon-kinesis.pdf)
+- [ ] [Sizing Cloud Data Warehouses](https://d1.awsstatic.com/whitepapers/Size-Cloud-Data-Warehouse-on-AWS.pdf)
+- [ ] [Amazon Redshift: Cost Optimization](https://d1.awsstatic.com/whitepapers/amazon-redshift-cost-optimization.pdf)
+- [ ] [Cost Modeling Data Lakes for Beginners](https://d1.awsstatic.com/whitepapers/cost-modeling-data-lakes.pdf)
+- [ ] [Migrating to Apache HBase on Amazon S3 on Amazon EMR](https://d1.awsstatic.com/whitepapers/Migrating_to_Apache_Hbase_on_Amazon_S3_on_Amazon_EMR.pdf)
+- [ ] [Comparing the Use of Amazon DynamoDB and Apache HBase for NoSQL](https://d1.awsstatic.com/whitepapers/AWS_Comparing_the_Use_of_DynamoDB_and_HBase_for_NoSQL.pdf)
+- [ ] [Big Data Analytics Options on AWS](https://d1.awsstatic.com/whitepapers/Big_Data_Analytics_Options_on_AWS.pdf)
+- [ ] [Use Amazon Elasticsearch Service to Log and Monitor (Almost) Everything](https://d1.awsstatic.com/whitepapers/whitepaper-use-amazon-elasticsearch-to-log-and-monitor-almost-everything.pdf)
+- [ ] [Lambda Architecture for Batch and Stream Processing](https://d1.awsstatic.com/whitepapers/lambda-architecure-on-for-batch-aws.pdf)
+- [ ] [Youtube Playlist](https://www.youtube.com/watch?v=TAkcRD6OxPw&list=PLCRlJJDoP5o91Gaj9yq2HIw2CTofIQ4TY)
+- [ ] [AWS Analytics Services Cheat Sheet](https://jayendrapatil.com/aws-certification-analytics-services-cheat-sheet/)
+- [ ] [Practice Exam](https://www.braincert.com/course/26478-AWS-Certified-Data-Analytics-Specialty-Practice-Exams)

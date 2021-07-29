@@ -56,7 +56,7 @@ https://aws.amazon.com/certification/certified-data-analytics-specialty
 - [ ] Elasticsearch
 - [ ] Amazon Athena
 - [ ] Amazon Redshift
-- [ ] Amazon Quicksight
+- [x] Amazon Quicksight
 
 ### Domain 5: Security
 1. Select appropriate authentication and authorization mechanisms
@@ -79,7 +79,7 @@ https://aws.amazon.com/certification/certified-data-analytics-specialty
 - [ ] [Amazon Kinesis Data Analytics](https://aws.amazon.com/kinesis/data-analytics/faqs/)
 - [ ] [Amazon ElasticSearch Service](https://aws.amazon.com/elasticsearch-service/faqs/)
 - [ ] [Amazon Managed Service for Kafka (MSK)](https://aws.amazon.com/msk/faqs/)
-- [ ] [Amazon QuickSight](https://aws.amazon.com/quicksight/resources/faqs/)
+- [x] [Amazon QuickSight](https://aws.amazon.com/quicksight/resources/faqs/)
 - [ ] [AWS Data Exchange](https://aws.amazon.com/data-exchange/faqs/)
 - [ ] [AWS Glue](https://aws.amazon.com/glue/faqs/)
 - [ ] [AWS Lake Formation](https://aws.amazon.com/lake-formation/faqs/)

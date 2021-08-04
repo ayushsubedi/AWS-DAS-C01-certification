@@ -92,7 +92,6 @@ A data lake on AWS can help you do the following:
 - Data marts only focus on one subject or functional area
 - A warehouse might contain all relevant sources for an enterprise, but a data mart might store only a single department’s sources.
 - because data marts are generally a copy of data already contained in a data warehouse, they are often fast and simple to implement
-- 
 
 
 | Characteristics       | Data warehouse                                                                                  | Data lake                                                                                                       |
@@ -103,3 +102,20 @@ A data lake on AWS can help you do the following:
 | Data quality          | Highly curated data that serves as the central version of the truth                             | Any data, which may or may not be curated (e.g., raw data)                                                      |
 | Users                 | Business analysts                                                                               | Data scientists, data developers, and business analysts (using curated data)                                    |
 | Analytics             | Batch reporting, BI, and visualizations                                                         | Machine learning, predictive analytics, data discovery, and profiling.                                          |
+
+
+
+- Within AWS, Hadoop frameworks are implemented using Amazon EMR and AWS Glue.
+- These services implement the Hadoop framework to ingest, transform, analyze, and move results to analytical data stores.
+- Hadoop uses a distributed processing architecture, in which a task is mapped to a cluster of commodity servers for processing.
+- The cluster servers frequently use the Hadoop Distributed File System (HDFS) to store data locally for processing.
+- One node, designated as the master node, controls the distribution of tasks and can automatically handle server failures.
+- Unlike traditional database systems, Hadoop can process structured, semistructured, or unstructured data. This includes virtually any data format currently available.
+- you can use Haddop to transform data into formats that allow better integration into your existing data sets. Also, you can store data with or without a schema and perform large-scale ETL operations to transform your data.
+- Amazon EMR is the AWS service that implements Hadoop frameworks. 
+- Amazon EMR has the ability to implement two different file systems: HDFS or the Elastic MapReduce File System (EMRFS)
+- HDFS is distributed storage allowing files to be read and written to clusters of servers in parallel.
+- It is helpful to understand the inner workings of an HDFS cluster. An HDFS cluster primarily consists of a NameNode, which manages the file system metadata, and DataNodes, which store the actual data.
+- Amazon EMR provides an alternative to HDFS: the EMR File System (EMRFS). 
+- EMRFS can catalog data within a data lake on Amazon S3. The time that is saved by eliminating the copy step can dramatically improve performance of the cluster.
+

@@ -71,4 +71,35 @@ A data lake on AWS can help you do the following:
 - central console where you can discover data sources, set up transformation jobs to move data to an Amazon S3 data lake, remove duplicates and match records, catalog data for access by analytic tools, configure data access and security policies, and audit and control access from AWS analytic and machine learning services
 - configures underlying AWS services to ensure compliance with your defined policies
 - Lake Formation configures the flows, centralizes their orchestration, and lets you monitor the execution of your jobs
- 
+
+## Data Warehouses
+- central repository of structured data 
+- usually transformed before put in the warehouse
+- AWS -> Amazon Redshift
+- build to store and query up to petabytes of data
+- Amazon Redshift Specturm allows you to query both datalakes and data warehouse
+- Amazon EMR: managed hadoop framework
+- Whether you use Hadoop on-premises or Amazon EMR, you will use the same tools, with one major exception: Amazon EMR uses its own file system. And that means you can use your Amazon S3 data lake as the data store. So there’s no need to copy data into the cluster, as you would with Hadoop on-premises.
+- Amazon EMR File System can catalog data within an Amazon S3 data lake and from an on-premises Hadoop File System at the same time
+- The first principle of data analysis is to separate storage from processing. Amazon EMR is a perfect example of this principle.
+- A data warehouse is a central repository of structured data from many data sources. This data is transformed, aggregated, and prepared for business reporting and analysis.
+- Data flows into a data warehouse from transactional systems, relational databases, and other sources. These data sources can include structured, semistructured, and unstructured data. These data sources are transformed into structured data before they are stored in the data warehouse.
+- Data is stored within the data warehouse using a schema. A schema defines how data is stored within tables, columns, and rows.
+- Business analysts, data scientists, and decision makers access the data through business intelligence (BI) tools, SQL clients, and other analytics applications. 
+
+## Data marts
+- subset of data warehouse
+- Data marts only focus on one subject or functional area
+- A warehouse might contain all relevant sources for an enterprise, but a data mart might store only a single department’s sources.
+- because data marts are generally a copy of data already contained in a data warehouse, they are often fast and simple to implement
+- 
+
+
+| Characteristics       | Data warehouse                                                                                  | Data lake                                                                                                       |
+| --------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Data                  | Relational from transactional systems, operational databases, and line of business applications | Non-relational and relational from IoT devices, websites, mobile apps, social media, and corporate applications |
+| Schema                | Designed prior to implementation (schema-on-write)                                              | Written at the time of analysis<br>(schema-on-read)                                                             |
+| Price/<br>performance | Fastest query results using higher cost storage                                                 | Query results getting faster using<br>low-cost storage                                                          |
+| Data quality          | Highly curated data that serves as the central version of the truth                             | Any data, which may or may not be curated (e.g., raw data)                                                      |
+| Users                 | Business analysts                                                                               | Data scientists, data developers, and business analysts (using curated data)                                    |
+| Analytics             | Batch reporting, BI, and visualizations                                                         | Machine learning, predictive analytics, data discovery, and profiling.                                          |

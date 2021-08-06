@@ -89,3 +89,65 @@ Data acceleration: The rate at which large collections of data can be ingested, 
 | Data size  | Large batches of data                                             | Individual records or micro batches consisting of a few records                                      |
 | Latency    | Minutes to hours                                                  | Seconds or milliseconds                                                                              |
 | Analysis   | Complex analytics                                                 | Simple response functions, aggregates, and rolling metrics                                           |
+
+
+## Introduction to batch data processing
+
+- Batch processing is often thought of as a slow process. This is not the case. 
+- Batch processing must quickly and efficiently consume a huge amount of data all at once.
+- Batch data processing provides companies with the ability to dive deep into the data they have collected to produce complex analytics that simply cannot be achieved using streaming analytics.
+- With modern architectures, you can optimize batch processing systems to the frequency and size of the batches you’re processing. 
+- execution of series of programs or jobs without intervention
+  - data is collected asynchronously (when a condition is met)
+  - frequency and size of batch can be managed with AWS
+  - traditional on premise system which is centralized almost fails to keep up with the velocity of today
+- Amazon EMR decouples collection and processing
+- you can also run other popular distributed frameworks such as Apache Spark, HBase, Presto, and Flink in EMR.
+- decoupling the collection system from the processing system. This is accomplished by implementing one of two common frameworks: Hadoop or Apache Spark. Both frameworks process high-velocity data but they do it in different ways.
+- Amazon EMR notebooks provide a serverless development and collaboration environment for one-time querying and exploratory analysis. You can manipulate the data and generate data plots using rich graphical tools. Amazon EMR notebooks monitor your jobs and even help you debug code from the notebooks.
+
+
+
+### Hadoop
+- scalable storage and batch data processing system
+- running EMR configures the clusters of EC2 instances to serve as a single distributed storage and processing
+  - provides speed
+  - fault tolerance
+  - scale
+- simultaniously ingesting and processing all type of data (structured/unstructured)
+
+#### Hadoop Common
+Hadoop Common is the set of Java utilities and libraries that support the other Hadoop modules. These libraries help abstract the file system from the processing components. These Java files and scripts are required to start Hadoop.
+
+#### HDFS
+Hadoop Distributed File System (HDFS) is the distributed file system that stores the data in a high-throughput environment of community nodes. This architecture ensures very high aggregate bandwidth access to application data..
+
+#### Hadoop YARN
+Hadoop YARN is the resource management framework responsible for scheduling and executing processing jobs.
+
+#### Hadop MapReduce
+Hadoop MapReduce is a YARN-based system that allows for parallel processing of large data sets on the cluster.
+
+
+
+### Apache Spark
+- competing product
+- in memory caching and optimized execution
+- avoids writing data to storage
+
+Both Spark and hadoop support:
+- General batch processing
+- Streaming Aanalytics
+- Machine learning
+- Graph databases
+- Ad hoc queries
+
+### Amazon EMR with other AWS services
+- Data sources -> S3 -> AWS lambda (create a program to run every 4 hour) -> send them to EMR for aggregation and load -> Redshift
+
+OR
+
+- AWS Glue
+- simplifies data discovery, conversion, mapping, etc etc. basically processing
+- same data architecture but instead of EMR we use glue
+

@@ -151,3 +151,35 @@ OR
 - simplifies data discovery, conversion, mapping, etc etc. basically processing
 - same data architecture but instead of EMR we use glue
 
+## Introduction to stream data processing
+
+- amount of data being transferred and size is not constant
+- excel at working with data with value that diminises over time
+- alarms
+- first benefit: control
+- producers and consumers
+- multiple stream can be combined into a single stream
+- ability to preserve the order of data
+- consumer: will process the incoming stream
+- parallel consumption lets multiple consumers work simultaniously
+
+#### AWS
+- Amazon Kinesis
+- makes it easy to collect, process and analyze streaming data
+- cost effective, scale etc
+
+#### AWS Kinesis
+- AWS Kinesis data firehose
+  - Amazon Kinesis Data Firehose is the easiest way to capture, transform, and load data streams into AWS data stores for near real-time analytics with existing business intelligence tools.  
+- AWS Kinesis data streams
+  - Amazon Kinesis Data Streams enables you to build custom, real-time applications that process data streams using popular stream processing frameworks.  
+- AWS Kinesis data analytics
+  - Amazon Kinesis Data Analytics is the easiest way to process data streams in real time with SQL or Java without having to learn new programming languages or processing frameworks. 
+- AWS Kinesis video streams (securily stream video)
+  - Amazon Kinesis Video Streams makes it easy to securely stream video from connected devices to AWS for analytics, machine learning (ML), and other processing. 
+
+Sensor Data -> Streaming Collection (using firehose) -> Stream Processing Layer (Kinesis Data analytics -> Firehose) -> S3 -> Athena -> QuickSight
+
+- you can filter/not filter depending on use case
+- you can also use AWS glue to connect multiple S3
+- you can store raw streams and batch analyze them too

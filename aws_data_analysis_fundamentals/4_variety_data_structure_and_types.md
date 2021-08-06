@@ -79,3 +79,22 @@ All decisions about the organization of data and storage of attributes are based
   - Easy to set up operate and scale
   - cost efficient and scaleable capacity
 - Redshift (for OLAP with column based index)  
+
+Within AWS, the Amazon Relational Database Service (Amazon RDS) provides the needs for many different relational database management systems. It supports the most popular database engines including Amazon Aurora, MySQL, PostgreSQL, MariaDB, Oracle, and SQL Server.
+Amazon RDS makes it easy to set up, operate, and scale a relational database in the cloud. The service provides cost-efficient and resizable capacity while automating time-consuming administration tasks, such as hardware provisioning, database setup, patching, and backups.
+Amazon RDS has anything you could need for a highly efficient OLTP database. The service implements row-based indexing to achieve the right performance for transactional workloads.
+
+Amazon Redshift is a fast, scalable data warehouse that makes it simple and cost effective to analyze all your data across your data warehouse and data lake. Amazon Redshift delivers 10 times faster performance than other data warehouses by using machine learning, massively parallel query execution, and columnar storage on high-performance disk. You can set up and deploy a new data warehouse in minutes and run queries across petabytes of data in your Amazon Redshift data warehouse and exabytes of data in your data lake built on Amazon S3.
+
+Amazon Redshift implements columnar indexing to achieve the the right performance for analytical workloads.
+
+
+|                  | Row-based indexes                          | Columnar indexes                        |
+| ---------------- | ------------------------------------------ | --------------------------------------- |
+| Storage on disk  | Row by row                                 | Column by column                        |
+| Read/write       | Best at random reads and writes            | Best at sequential reads and writes     |
+| Best for         | Returning full rows of data based on a key | Returning aggregations of column values |
+| Implementation   | Transactional systems                      | Analytical processing                   |
+| Data compression | Low to medium compression can be achieved  | High compression is the norm            |
+
+## Introduction to semistructured and unstructured data stores

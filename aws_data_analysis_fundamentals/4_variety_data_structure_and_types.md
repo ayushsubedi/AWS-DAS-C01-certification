@@ -98,3 +98,32 @@ Amazon Redshift implements columnar indexing to achieve the the right performanc
 | Data compression | Low to medium compression can be achieved  | High compression is the norm            |
 
 ## Introduction to semistructured and unstructured data stores
+- Semistructured and unstructured data are often stored in non-relational database systems, sometimes called NoSQL databases.
+- Non-relational or NoSQL does not mean the data stored cannot be queried using SQL. A better way to think of it is not only SQL.
+- rapid collection and retrival
+- several broad category
+  - document store: in the form of files, you can navigate the file using python, node-js or anything else
+  - key-value database: semi structure data being stored as key value (schema less
+- Amazon DynamoDB:
+  - key value and document store database
+  - single digit millisecond performance
+  - in memory caching, ..... and all the other features
+- NoSql also has graph databases:
+  - finding patterns in relationships
+- AWS Neptune
+  - fast reliable 
+  - purpose built to store relationships
+  - recommendation engine, fraud detection etc
+
+| Characteristics | Relational                                           | Non-relational                                               | Graph                                  |
+| --------------- | ---------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------- |
+| Representation  | Multiple tables, each containing columns and rows    | Collection of documents<br>Single table with keys and values | Collections of nodes and relationships |
+| Data design     | Normalized relational or dimensional data warehouse. | Denormalized document, wide column or key value              | Denormalized entity relationship       |
+| Optimized       | Optimized for storage                                | Optimized for compute                                        | Optimized for relationships            |
+| Query style     | Language: SQL                                        | Language: many<br>Uses object querying                       | Language: many<br>Uses object querying |
+| Scaling         | Scale vertically                                     | Scale horizontally                                           | Hybrid                                 |
+| Implementation  | OLTP business systems, OLAP data warehouse           | OLTP web/mobile apps                                         | OLTP web/mobile apps                   |
+
+
+
+

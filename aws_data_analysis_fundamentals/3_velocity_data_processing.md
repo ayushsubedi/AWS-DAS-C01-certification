@@ -66,3 +66,26 @@ ________________________
   - once collected, it must be collected just as fast
   - rapid collection followed by rapid processing
   - streaming solution 
+
+___________________________
+
+Batch: Velocity is very predictable with batch processing. It amounts to large bursts of data transfer at scheduled intervals.
+
+Periodic: Velocity is less predictable with periodic processing. The loss of scheduled events can put a strain on systems and must be considered.
+
+Near real-time: Velocity is a huge concern with near real-time processing. These systems require data to be processed within minutes of the initial collection of the data. This can put tremendous strain on the processing and analytics systems involved.
+
+Real-time: Velocity is the paramount concern for real-time processing systems. Information cannot take minutes to process. It must be processed in seconds to be valid and maintain its usefulness.
+
+Batch and periodic: Once the data has been collected, processing can be done in a controlled environment. There is time to plan for the appropriate resources.
+
+Near real-time and real-time: Collection of the data leads to an immediate need for processing. Depending on the complexity of the processing (cleansing, scrubbing, curation), this can slow down the velocity of the solution significantly. Plan accordingly.
+
+Data acceleration: The rate at which large collections of data can be ingested, processed, and analyzed. Data accelearation is not constant and comes in bursts. Example hashtag trending on twitter for which the system needs to be capable to process it.
+
+|            | Batch data processing                                             | Stream data processing                                                                               |
+| ---------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Data scope | Queries or processing over all or most of the data in the dataset | Queries or processing over data within a rolling time window, or on just the most recent data record |
+| Data size  | Large batches of data                                             | Individual records or micro batches consisting of a few records                                      |
+| Latency    | Minutes to hours                                                  | Seconds or milliseconds                                                                              |
+| Analysis   | Complex analytics                                                 | Simple response functions, aggregates, and rolling metrics                                           |

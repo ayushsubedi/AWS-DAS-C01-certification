@@ -33,3 +33,13 @@
   - These settings were created to prevent company data leaks
   - If you know your buckets should not be public, leave these settings on.   
  
+- Networking
+  - supports vpc endpoints
+ 
+- Logging and Audit
+  - s3 access logs can be stored in other s3 bucket
+  - api calls can be logged in aws cloudtrail
+
+- User security
+  - mfa delete
+  - pre signed urls (urls that are only valid for a certain time, premium video service for logged in users) 

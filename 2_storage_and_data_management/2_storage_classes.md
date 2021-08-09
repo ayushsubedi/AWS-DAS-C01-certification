@@ -37,7 +37,7 @@ https://aws.amazon.com/s3/storage-classes/
   - each item in glacier is called archive (up t0 40TB)
   - archives are stored in vaults
   
-  **3 retrieval options:
+  **3 retrieval options:**
   - Expedited (1 to 5 minutes)
   - Standard (3 to 5 hours)
   - Bulk (5 to 12 hours)

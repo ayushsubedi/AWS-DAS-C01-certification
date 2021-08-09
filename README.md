@@ -31,8 +31,8 @@ https://aws.amazon.com/certification/certified-data-analytics-specialty
 4. Define a data lifecycle based on usage patterns and business requirements
 5. Determine an appropriate system for cataloging data and managing metadata
 
-- [ ] S3
-- [ ] Glacier
+- [x] S3
+- [x] Glacier
 - [ ] DynamoDB
 - [ ] ElastiCache 
 

@@ -7,5 +7,16 @@
 ## Subdomains
 
 1. determine the operational characteristics of the collection system
-2. select a collection system that handles the frequyency, volume and source of data
+2. select a collection system that handles the frequency, volume and source of data
 3. select a collection system that addresses the key properties of data, such as order, format, and compression
+
+
+## 1
+
+- Pipeline vulnerability (vulnerability in pipeline)
+- to decrease pipeline vulnerability it is a good idea to decouple data analytics pipeline
+- much less expensive
+- each tool can be built to exact specifications, avoid overprovisioning, and handle failure gracefully
+- failure handling is important as losing large data sets can be difficult to recover
+
+## Assessing fault tolerance and data persistence of the collection system

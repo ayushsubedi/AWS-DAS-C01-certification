@@ -66,13 +66,17 @@ https://aws.amazon.com/certification/certified-data-analytics-specialty
 - [ ] Amazon KMS
 - [ ] AWS CloudHSM
 
+### Courses
+- [x] [Data Analytics Fundamentals offered by AWS](https://www.aws.training/Details/eLearning?id=35364) -> [My Notes](https://github.com/ayushsubedi/AWS-DAS-C01-certification/tree/main/aws_data_analysis_fundamentals)
+- [ ] [Exam Readiness: AWS Certified Data Analytics - Specialty](https://www.aws.training/Details/eLearning?id=46612)
+- [ ] [Udemy course-AWS Certified Data Analytics Specialty 2021 - Hands On!](https://www.udemy.com/course/aws-data-analytics/)
+- [ ] [AWS Ramp up Guide-Data Analytics](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Data_Analytics.pdf)
+
 ## Resources
 
 - [ ] [Official Docs](https://docs.aws.amazon.com/)
-- [x] [Data Analytics Fundamentals offered by AWS](https://www.aws.training/Details/eLearning?id=35364) -> [My Notes](https://github.com/ayushsubedi/AWS-DAS-C01-certification/tree/main/aws_data_analysis_fundamentals)
 - [ ] [Linux Academy Repo](https://github.com/ayushsubedi/Content-AWS-Certified-Data-Analytics---Speciality)
 - [ ] [Sagemaker Immersion Day](https://sagemaker-immersionday.workshop.aws/en/) 
-- [ ] [Udemy course-AWS Certified Data Analytics Specialty 2021 - Hands On!](https://www.udemy.com/course/aws-data-analytics/)
 - [ ] [Unofficial Guide](https://awsmaniac.com/the-unofficial-guide-to-aws-certified-data-analytics-specialty-exam/)
 - [ ] [Practice exams](https://www.whizlabs.com/aws-certified-data-analytics-specialty/practice-tests/)
 - [ ] [Amazon Athena](https://aws.amazon.com/athena/faqs/)

@@ -11,7 +11,7 @@
 3. select a collection system that addresses the key properties of data, such as order, format, and compression
 
 
-## 1
+## 1: Determine the operational characteristics of the collection system
 
 - Pipeline vulnerability (vulnerability in pipeline)
 - to decrease pipeline vulnerability it is a good idea to decouple data analytics pipeline
@@ -20,3 +20,9 @@
 - failure handling is important as losing large data sets can be difficult to recover
 
 ## Assessing fault tolerance and data persistence of the collection system
+
+### Amazon Kinesis Data Streams
+- Kinesis Producer Library -> Amazon Kinesis Data Streams -> Kinesis Consumer Library
+- Fault Tolerance and data persistence
+  - KPL sends multiple records to stream per request. If single record fails, it is automatically added back to the KPL buffer and retried. The failure of one record does not impact the processing of other records in the request. 
+  -  

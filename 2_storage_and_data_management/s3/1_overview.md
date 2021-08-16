@@ -9,6 +9,32 @@
   - 3-63 characters long
   - cannot be an IP
   - must start with letter or number (letter needs to be lowercase)
+
+The following example bucket names are valid and follow the recommended naming guidelines:
+
+-   `docexamplebucket1`
+
+-   `log-delivery-march-2020`
+
+-   `my-hosted-content`
+
+The following example bucket names are valid but not recommended for uses other than static website hosting:
+
+-   `docexamplewebsite.com`
+
+-   `www.docexamplewebsite.com`
+
+-   `my.example.s3.bucket`
+
+The following example bucket names are *not* valid:
+
+-   `doc_example_bucket` (contains underscores)
+
+-   `DocExampleBucket` (contains uppercase letters)
+
+-   `doc-example-bucket-` (ends with a hyphen)
+
+
 - Objects (files) have a key. The key is the full path:
   - <bucket>/my_file.txt
   - <bucket>/first_folder/second_folder/my_file.txt

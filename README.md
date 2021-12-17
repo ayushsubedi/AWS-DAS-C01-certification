@@ -1,5 +1,5 @@
 # AWS-DAS-C01-certification
-## (WIP) Notes on AWS Data Analytics Speciality Certification
+## This is a work on progress, and contains personal notes on AWS Data Analytics Speciality Certification
 
 https://aws.amazon.com/certification/certified-data-analytics-specialty
 

@@ -77,6 +77,7 @@ https://aws.amazon.com/certification/certified-data-analytics-specialty
 - [ ] [Official Docs](https://docs.aws.amazon.com/)
 - [ ] [AWS Certified Data Analytics Specialty 2021 – Hands-On!](https://learning.oreilly.com/videos/aws-certified-data/9781838983383/)
 - [ ] [AWS Certified Data Analytics Study Guide](https://learning.oreilly.com/library/view/aws-certified-data/9781119649472/)
+- [ ] [Prepare for the AWS Certified Database Specialty Exam (DBS-C01)](https://www.linkedin.com/learning/paths/prepare-for-the-aws-certified-database-specialty-exam-dbs-c01)
 - [ ] [Linux Academy Repo](https://github.com/ayushsubedi/Content-AWS-Certified-Data-Analytics---Speciality)
 - [ ] [Sagemaker Immersion Day](https://sagemaker-immersionday.workshop.aws/en/) 
 - [ ] [Unofficial Guide](https://awsmaniac.com/the-unofficial-guide-to-aws-certified-data-analytics-specialty-exam/)

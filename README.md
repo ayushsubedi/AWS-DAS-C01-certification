@@ -31,8 +31,8 @@ https://aws.amazon.com/certification/certified-data-analytics-specialty
 4. Define a data lifecycle based on usage patterns and business requirements
 5. Determine an appropriate system for cataloging data and managing metadata
 
-- [x] S3
-- [x] Glacier
+- [ ] S3
+- [ ] Glacier
 - [ ] DynamoDB
 - [ ] ElastiCache 
 
@@ -56,7 +56,7 @@ https://aws.amazon.com/certification/certified-data-analytics-specialty
 - [ ] Elasticsearch
 - [ ] Amazon Athena
 - [ ] Amazon Redshift
-- [x] Amazon Quicksight
+- [ ] Amazon Quicksight
 
 ### Domain 5: Security
 1. Select appropriate authentication and authorization mechanisms
@@ -67,7 +67,7 @@ https://aws.amazon.com/certification/certified-data-analytics-specialty
 - [ ] AWS CloudHSM
 
 ### Courses
-- [x] [Data Analytics Fundamentals offered by AWS](https://www.aws.training/Details/eLearning?id=35364) -> [My Notes](https://github.com/ayushsubedi/AWS-DAS-C01-certification/tree/main/aws_data_analysis_fundamentals)
+- [ ] [Data Analytics Fundamentals offered by AWS](https://www.aws.training/Details/eLearning?id=35364) -> [My Notes](https://github.com/ayushsubedi/AWS-DAS-C01-certification/tree/main/aws_data_analysis_fundamentals)
 - [ ] [Exam Readiness: AWS Certified Data Analytics - Specialty](https://www.aws.training/Details/eLearning?id=46612)
 - [ ] [Udemy course-AWS Certified Data Analytics Specialty 2021 - Hands On!](https://www.udemy.com/course/aws-data-analytics/)
 - [ ] [AWS Ramp up Guide-Data Analytics](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Data_Analytics.pdf)
@@ -90,7 +90,7 @@ https://aws.amazon.com/certification/certified-data-analytics-specialty
 - [ ] [Amazon Kinesis Data Analytics](https://aws.amazon.com/kinesis/data-analytics/faqs/)
 - [ ] [Amazon ElasticSearch Service](https://aws.amazon.com/elasticsearch-service/faqs/)
 - [ ] [Amazon Managed Service for Kafka (MSK)](https://aws.amazon.com/msk/faqs/)
-- [x] [Amazon QuickSight](https://aws.amazon.com/quicksight/resources/faqs/)
+- [ ] [Amazon QuickSight](https://aws.amazon.com/quicksight/resources/faqs/)
 - [ ] [AWS Data Exchange](https://aws.amazon.com/data-exchange/faqs/)
 - [ ] [AWS Glue](https://aws.amazon.com/glue/faqs/)
 - [ ] [AWS Lake Formation](https://aws.amazon.com/lake-formation/faqs/)

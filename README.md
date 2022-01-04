@@ -72,6 +72,10 @@ https://aws.amazon.com/certification/certified-data-analytics-specialty
 - [ ] [Udemy course-AWS Certified Data Analytics Specialty 2021 - Hands On!](https://www.udemy.com/course/aws-data-analytics/)
 - [ ] [AWS Ramp up Guide-Data Analytics](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Data_Analytics.pdf)
 
+
+## Videos
+- [ ] https://www.youtube.com/watch?v=n30FRdK6Xxg
+
 ## Resources
 
 - [ ] [Official Docs](https://docs.aws.amazon.com/)
